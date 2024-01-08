@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --small: 14pt;
+  --primary: #F042F4;
+  --secondary: #42F47F;
+  --accent: #F44242;
+  --neutral-dark: #3E3E3E;
+  --neutral-gray: #D9D9D9;
+  --neutral-white: #FFFFFF;
+}
+
+body,
+html {
+  font-size: 16pt;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 48pt;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.zodiac-app-title {
+  margin: 2rem 0;
+}
+
+.input-div {
+  display: flex;
+  margin-bottom: .8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-birth-day,
+.input-birth-month {
+  display: flex;
+  gap: .4rem;
+  margin-right: .4rem;
+}
+
+#input-birth-day-input-box,
+#input-birth-month-input-box {
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0rem 0rem 8px var(--neutral-gray);
+  background-color: var(--neutral-gray);
+  padding: 0 .4rem;
+  font-size: var(--small);
+}
+
+#input-birth-day-input-box {
+  width: 2.8rem;
+}
+
+#input-birth-day-input-box:focus,
+#input-birth-month-input-box:focus {
+  background-color: var(--neutral-white);
+  outline: none;
+}
+#input-birth-month-input-box.active,
+#input-birth-day-input-box.active{
+  background-color: var(--neutral-white);
+}
+
+.classify-button {
+  font-style: 'Poppins', sans-serif;
+  padding: .4rem;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--primary);
+  font-weight: 700;
+  color: var(--neutral-white);
+  box-shadow: 0rem 0rem 8px var(--primary);
+  cursor: pointer;
+}
+
+.output-div {
+  display: flex;
+  margin: 2rem 0rem;
+  justify-content: center;
+}
+
+.zodiac-container {
+  display: flex;
+  padding: 1.4rem;
+  border-radius: 8px;
+  box-shadow: 0rem 0rem 8px var(--neutral-gray);
+}
+
+.zodiac-info-container {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.zodiac-sign-title {
+  color: var(--secondary);
+}
+
+.zodiac-info-container>span {
+  font-size: var(--small);
+}
+.error{
+    color: var(--accent);
+}

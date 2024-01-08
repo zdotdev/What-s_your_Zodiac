@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Astrological Sign Classifier</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <h1 class="zodiac-app-title">Astrological Sign Classifier</h1>
+        
+            <div class="input-div">
+        
+              <div class="input-birth-month">
+        
+                <label for="input-bith-month-input-box" class="input-birth-month-input-box-label"><strong>Input Birth
+                    Month:</strong></label>
+        
+                <input type="text" id="input-birth-month-input-box" required>
+        
+              </div>
+        
+              <div class="input-birth-day">
+        
+                <label for="input-birth-day-input-box" class="input-bith-day-input-box-label"><strong>Input Birth
+                    Day:</strong></label>
+        
+                <input type="text" id="input-birth-day-input-box" required>
+        
+              </div>
+        
+              <button class="classify-button" id="classify-button">Classify</button>
+        
+            </div>
+        
+            <div class="output-div" id="output-div"></div>
+        
+          </main>
+
+          <script src="script.js"></script>
+    </body>
+</html>
