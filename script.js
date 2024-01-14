@@ -48,50 +48,50 @@ classifyButton.onclick = function (){
     };
     switch(true){
         case((birthMonthInputBox.value == "March" && birthDayInputBox.value >= 21 && birthDayInputBox.value <= 31) || (birthMonthInputBox.value == "April" && birthDayInputBox.value <= 19 && birthDayInputBox.value >= 1)):
-            displayZodiac(Aries);
+            displayZodiac(zodiacs[2]);
             break;
         
         case((birthMonthInputBox.value == "April" && birthDayInputBox.value >= 20 && birthDayInputBox.value <= 30) || (birthMonthInputBox.value == "May" && birthDayInputBox.value <= 20 && birthDayInputBox.value >= 1)):
-            displayZodiac(Taurus);
+            displayZodiac(zodiacs[3]);
             break;
             
         case((birthMonthInputBox.value == "May" && birthDayInputBox.value >= 21 && birthDayInputBox.value <= 31) || (birthMonthInputBox.value == "June" && birthDayInputBox.value <= 20 && birthDayInputBox.value >= 1)):
-            displayZodiac(Gemini);
+            displayZodiac(zodiacs[4]);
             break;
         case((birthMonthInputBox.value == "June" && birthDayInputBox.value >= 21 && birthDayInputBox.value <= 30) || (birthMonthInputBox.value == "July" && birthDayInputBox.value <= 22 && birthDayInputBox.value >= 1)):
-            displayZodiac(Cancer);
+            displayZodiac(zodiacs[5]);
             break;
 
         case((birthMonthInputBox.value == "July" && birthDayInputBox.value >= 23 && birthDayInputBox.value <= 31) || (birthMonthInputBox.value == "August" && birthDayInputBox.value <= 22 && birthDayInputBox.value >= 1)):
-            displayZodiac(Leo);
+            displayZodiac(zodiacs[6]);
             break;
         
         case((birthMonthInputBox.value == "August" && birthDayInputBox.value >= 23 && birthDayInputBox.value <= 31) || (birthMonthInputBox.value == "September" && birthDayInputBox.value <= 22 && birthDayInputBox.value >= 1)):
-            displayZodiac(Virgo);
+            displayZodiac(zodiacs[7]);
             break;
         
         case((birthMonthInputBox.value == "September" && birthDayInputBox.value >= 23 && birthDayInputBox.value <= 30) || (birthMonthInputBox.value == "October" && birthDayInputBox.value <= 22 && birthDayInputBox.value >= 1)):
-            displayZodiac(Libra);
+            displayZodiac(zodiacs[8]);
             break;
         
         case((birthMonthInputBox.value == "October" && birthDayInputBox.value >= 23 && birthDayInputBox.value <= 31) || (birthMonthInputBox.value == "November" && birthDayInputBox.value <= 21 && birthDayInputBox.value >= 1)):
-            displayZodiac(Scorpio);
+            displayZodiac(zodiacs[9]);
             break;
 
         case((birthMonthInputBox.value == "November" && birthDayInputBox.value >= 22 && birthDayInputBox.value <= 30) || (birthMonthInputBox.value == "December" && birthDayInputBox.value <= 21 && birthDayInputBox.value >= 1)):
-            displayZodiac(Sagittarius);
+            displayZodiac(zodiacs[10]);
             break;
 
         case((birthMonthInputBox.value == "December" && birthDayInputBox.value >= 22 && birthDayInputBox.value <= 31) || (birthMonthInputBox.value == "January" && birthDayInputBox.value <= 19 && birthDayInputBox.value >= 1)):
-            displayZodiac(Capricorn);
+            displayZodiac(zodiacs[11]);
             break;
 
         case((birthMonthInputBox.value == "January" && birthDayInputBox.value >= 20 && birthDayInputBox.value <= 31) || (birthMonthInputBox.value == "February" && birthDayInputBox.value <= 18 && birthDayInputBox.value >= 1)):
-            displayZodiac(Aquarius);
+            displayZodiac(zodiacs[0]);
             break;
 
         case((birthMonthInputBox.value == "February" && birthDayInputBox.value >= 19 && birthDayInputBox.value <= 29) || (birthMonthInputBox.value == "March" && birthDayInputBox.value <= 20 && birthDayInputBox.value >= 1)):
-            displayZodiac(Pisces);
+            displayZodiac(zodiacs[1]);
             break;
         case((birthMonthInputBox.value != "January" && birthMonthInputBox.value != "February" && birthMonthInputBox.value != "March" && birthMonthInputBox.value != "April" && birthMonthInputBox.value != "May",birthMonthInputBox.value != "June" && birthMonthInputBox.value != "July" && birthMonthInputBox.value != "August" && birthMonthInputBox.value != "September" && birthMonthInputBox.value != "October" && birthMonthInputBox.value != "November" && birthMonthInputBox.value != "December") || (birthDayInputBox.value < 1 || birthDayInputBox.value > 31)):
         outputDiv.innerHTML = `
