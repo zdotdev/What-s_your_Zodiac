@@ -1,27 +1,17 @@
-const Aquarius = {title: "Aquarius", img:"./images/aquarius.png", Element: "Air" , Color: "Light-Blue, Silver" ,Quality: "Fixed" , Day: "Saturday", Ruler: "Uranus, Saturn"};
-
-const Pisces = {title: "Picses", img:"./images/pieces.png", Element: "Water", Color: "Mauv, Lilac, Purple, Violet, Sea green", Quality: "Mutable", Day: "Thursday", Ruler: "Neptune, Jupiter"};
-
-const Aries = {title: "Aries", img:"./images/aries.png", Element: "Fire", Color: "Red", Quality: "Cardinal", Day: "Tuesday", Ruler: "Mars"};
-
-const Taurus = {title: "Taurus", img:"./images/taurus.png", Element: "Earth", Color: "Green, Pink", Quality: "Fixed", Day: "Friday, Monday", Ruler: "Venus"};
-
-const Gemini = {title: "Gemini", img:"./images/gemini.png", Element: "Air", Color: "Light-Green, Yellow", Quality: "Mutable", Day: "Wednesday", Ruler: "Mercury"};
-
-const Cancer = {title: "Cancer", img:"./images/cancer.png", Element: "Water", Color: "White", Quality: "Cardinal", Day: "Monday, Thursday", Ruler: "Moon"};
-
-const Leo = {title: "Leo", img:"./images/leo.png", Element: "Fire", Color: "Gold, Yellow, Orange", Quality: "Fixed", Day: "Sunday", Ruler: "Sun"};
-
-const Virgo = {title: "Virgo", img:"./images/virgo.png", Element: "Earth", Color: "Grey, Beige, Pale-Yellow", Quality: "Mutable", Day: "Wednesday",Ruler: "Mercury"};
-
-const Libra = {title: "Libra", img:"./images/libra.png", Element: "Air", Color: "Pink, Green", Quality: "Cardinal", Day: "Friday", Ruler: "Venus"};
-
-const Scorpio = {title: "Scorpio", img:"./images/scorpio.png", Element: "Water", Color: "Scarlet, Red, Rust", Quality: "Fixed", Day: "Tuesday", Ruler: "Pluto, Mars"};
-
-const Sagittarius = {title: "Sagittarius", img:"./images/sagittarius.png", Element: "Fire", Color: "Blue", Quality: "Mutable", Day: "Thursday", Ruler: "Jupiter"};
-
-const Capricorn = {title: "Capricorn", img:"./images/capricorn.png", Element: "Earth", Color: "Brown, Black", Quality: "Cardinal", Day: "Saturday", Ruler: "Saturn"};
-
+const zodiacs = [
+{title: "Aquarius", img:"./images/aquarius.png", Element: "Air" , Color: "Light-Blue, Silver" ,Quality: "Fixed" , Day: "Saturday", Ruler: "Uranus, Saturn"},
+{title: "Picses", img:"./images/pieces.png", Element: "Water", Color: "Mauv, Lilac, Purple, Violet, Sea green", Quality: "Mutable", Day: "Thursday", Ruler: "Neptune, Jupiter"},
+{title: "Aries", img:"./images/aries.png", Element: "Fire", Color: "Red", Quality: "Cardinal", Day: "Tuesday", Ruler: "Mars"},
+{title: "Taurus", img:"./images/taurus.png", Element: "Earth", Color: "Green, Pink", Quality: "Fixed", Day: "Friday, Monday", Ruler: "Venus"},
+{title: "Gemini", img:"./images/gemini.png", Element: "Air", Color: "Light-Green, Yellow", Quality: "Mutable", Day: "Wednesday", Ruler: "Mercury"},
+{title: "Cancer", img:"./images/cancer.png", Element: "Water", Color: "White", Quality: "Cardinal", Day: "Monday, Thursday", Ruler: "Moon"},
+{title: "Leo", img:"./images/leo.png", Element: "Fire", Color: "Gold, Yellow, Orange", Quality: "Fixed", Day: "Sunday", Ruler: "Sun"},
+{title: "Virgo", img:"./images/virgo.png", Element: "Earth", Color: "Grey, Beige, Pale-Yellow", Quality: "Mutable", Day: "Wednesday",Ruler: "Mercury"},
+{title: "Libra", img:"./images/libra.png", Element: "Air", Color: "Pink, Green", Quality: "Cardinal", Day: "Friday", Ruler: "Venus"},
+{title: "Scorpio", img:"./images/scorpio.png", Element: "Water", Color: "Scarlet, Red, Rust", Quality: "Fixed", Day: "Tuesday", Ruler: "Pluto, Mars"},
+{title: "Sagittarius", img:"./images/sagittarius.png", Element: "Fire", Color: "Blue", Quality: "Mutable", Day: "Thursday", Ruler: "Jupiter"},
+{title: "Capricorn", img:"./images/capricorn.png", Element: "Earth", Color: "Brown, Black", Quality: "Cardinal", Day: "Saturday", Ruler: "Saturn"},
+];
 
 const outputDiv = document.getElementById('output-div');
 outputDiv.innerHTML = "";
