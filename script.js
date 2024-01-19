@@ -21,13 +21,6 @@ const birthDayInputBox = document.getElementById("input-birth-day-input-box");
 
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-if(birthMonthInputBox.value != ""){
-    birthMonthInputBox.classList.add('active');
-};
-if(birthDayInputBox.value != ""){
-    birthDayInputBox.classList.add('active');
-};
-
 const classifyButton = document.getElementById('classify-button');
 classifyButton.onclick = function (){
 
