@@ -30,7 +30,7 @@ classifyButton.onclick = function (){
             <img src="${zodiacSign.img}" alt="Zodiac IMG" class="zodiac-img" id="zodiac-sign-img">
             <div class="zodiac-info-container">
                 <span><strong class="zodiac-sign-title">${zodiacSign.title}</strong></span>
-                <span><strong class="zodiac-sign-element">Element: ${zodiacSign.Element}</strong>Air</span>
+                <span><strong class="zodiac-sign-element">Element: ${zodiacSign.Element}</strong></span>
                 <span><strong class="zodiac-sign-color">Color: </strong>${zodiacSign.Color}</span>
                 <span><strong class="zodiac-sign-quality">Quality: </strong>${zodiacSign.Quality}</span>
                 <span><strong class="zodiac-sign-day">Day: </strong>${zodiacSign.Day}</span>
